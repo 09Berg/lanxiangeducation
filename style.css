@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+} 
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    padding: 10px;
+    
+  }
+  
+  
+  .column.side {
+    width: 25%;
+    height: 1000px;
+  }
+  
+  
+  .column.middle {
+    width: 50%;
+    height: 1000px;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+#qr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    display: flex;
+}
+
+.y {
+    float: left;
+    flex: 1 1 auto;
+  
+}
+
+.y a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.y a:hover:not(.active) {
+    background-color: #111;
+}
+header{
+    background-color: rgb(104, 107, 106);
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-style:italic;
+}
+#qw{
+    position: absolute;
+    left: 100px;
+    top:50px;
+    width: 100px;
+    height: 100px;
+   
+}
+#qe{
+    position: relative;
+    right: 0px;
+}
+
+.search{
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    border: 1px solid #ccc;
+}
+.btn{
+    height: 35px;
+    width: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#left ul li{
+    border: 5px solid rgb(57, 56, 56);
+    list-style: none;
+    
+}
+#left{
+    float: left;
+}
+#right{
+    float: left;
+    margin-left: 50px;
+    width: 800px;
+}
+.footer {
+    background-color: #696767;
+    padding: 10px;
+    text-align: center;
+}
+.myslides{
+    max-width:100%;
+    max-height: 100%;
+    
+}
+#column-image{
+    height: 300px;
+}
+p{
+    font-weight:bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large;
+    color: black;
+}
+h2{
+    font-family:Lucida Bright;
+    font-size:xx-large;
+    color: rgb(96, 75, 75);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 3px solid #333232;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f7f0f0;
+  }
+  #school{
+      float: right;
+      top: 200px;
+  }
