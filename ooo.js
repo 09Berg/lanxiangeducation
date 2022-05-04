@@ -12,3 +12,9 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+text=prompt("hello, are you a parent or a student?")
+if(text=="student"){
+     location.replace("https://09berg.github.io/lanxiangeducation/Course.html")
+}else if(text=="parent"){
+     location.replace("https://09berg.github.io/lanxiangeducation/index.html")
+}
